@@ -32,7 +32,7 @@ Where:
 * **`benchmarking/`**: Zero-shot stress testing against standard architectures (nnU-Net v2, Swin UNETR, SegResNet) across OOD datasets.
 
 ## Requirements
-* `Python 3.x`
+* `Python 3.12`
 * `PyTorch` (with Automatic Mixed Precision support)
 * `MONAI`
 * `FastGeodis` (for efficient geodesic distance transforms)
