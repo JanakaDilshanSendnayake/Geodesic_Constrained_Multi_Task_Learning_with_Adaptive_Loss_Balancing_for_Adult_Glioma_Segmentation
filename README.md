@@ -25,6 +25,10 @@ Where:
 * **Geodesic Distance Maps (SiNG):** Predicts continuous spatial distances to the tumor boundaries rather than relying solely on hard labels.
 * **Out-of-Distribution (OOD) Robustness:** Demonstrates superior boundary stability (lowest HD95) on zero-shot benchmarking across BraTS Africa, Pediatrics, and Meningioma datasets.
 
+## Model Weights
+The pre-trained model weights for this project can be accessed and downloaded here:
+* [Model Weights (Google Drive)](https://drive.google.com/drive/folders/1NZpFAorSmzFfxT99kxjaFvdHN07Rg1Ss?usp=sharing)
+
 ## Repository Structure
 * **`Geodesic_maps_generation/`**: Scripts and notebooks for processing standard BraTS ground-truth masks into continuous SiNG Distance Maps.
 * **`proposed_architecture_training/`**: Training and inference pipelines for the Uncertainty-Weighted Dual-Decoder U-Net.
